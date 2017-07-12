@@ -14,7 +14,7 @@ export const test01 = {
           $translate.use(key);
       };
 
-      vm.localeKey('fr'); // locale key - change en to fr and viceverse
+      vm.localeKey('en'); // locale key - change en to fr and viceverse
 
       vm.goBack = function() {
  		    $window.history.back();

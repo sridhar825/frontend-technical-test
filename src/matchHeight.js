@@ -14,7 +14,7 @@ function matchHeight($timeout, $q, $window) {
           // if an element is not defined, it will look for the next available element
           selectedElements = element.children();
         } else {
-          selectedElements = angular.element(element).find(scope.targetEl);
+          selectedElements = angular.element(element).find(attrs.targetEl);
         }
 
         scope.checkMobileView();

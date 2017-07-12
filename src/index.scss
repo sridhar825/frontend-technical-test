@@ -1,8 +1,16 @@
+@font-face {
+    font-family: "Webly Sleek SemiLight";
+    src: url("/assets/fonts/weblysleekuil-webfont.woff2");
+    font-weight: 500;
+    font-style: bold
+}
+
+
 html, body {
 	width: 100%;
 	height: 100%;
 	font-size: 16px;
-	font-family: sans-serif;
+	font-family: "Webly Sleek SemiLight",sans-serif;
 }
 
 body {
@@ -11,12 +19,12 @@ body {
 }
 
 
-h1{
-	line-height: 1.3;
-    margin-top: 0.7em;
-    margin-bottom: -10px;
+.header{
+    margin-top: 0.7em;   
     text-align: center;
     font-weight: normal;
+    font-size: 1.8125rem;  
+    line-height: 1.3;  
 }
 
 h3{
@@ -43,6 +51,7 @@ h4{
     color: #008a00;
     background-color: transparent;
     border-color: #008a00;
+    font-size: 20px;
 }
 
 .btn-section{
